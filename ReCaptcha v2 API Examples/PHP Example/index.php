@@ -15,12 +15,16 @@
     </form>
   </body>
 <?php
-$retrieve= file_get_contents("http://2captcha.com/in.php?key=220f63ac9ed69a6e486f5625ecb5edf8&method=userrecaptcha&googlekey=6Lc6MwsUAAAAAP813-674bEeF7gMBj4s858xpp4H");
+$apiKey = "YOUR_API_KEY";
+$googleKey = "6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-";
+$pageUrl = "https://www.google.com/recaptcha/api2/demo";
+
+$retrieve= file_get_contents("http://2captcha.com/in.php?key=".$apiKey."&method=userrecaptcha&googlekey=".$googleKey."&pageurl=".$pageUrl);
 
 $first = array($retrieve);
 $result = explode('OK|',$first[0]);
 $hello = $result[1];
-$con="http://2captcha.com/res.php?key=220f63ac9ed69a6e486f5625ecb5edf8&action=get&id=".$hello;
+$con="http://2captcha.com/res.php?key=".$apiKey."&action=get&id=".$hello;
  
 sleep(23);
 
