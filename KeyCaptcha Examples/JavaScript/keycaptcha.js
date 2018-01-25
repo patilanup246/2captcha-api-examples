@@ -6,7 +6,7 @@ var apiKey = "YOUR_API_KEY";
  
 function removeElements(){
     document.getElementById("div_for_keycaptcha").remove();
-    var filename = "https://back0.keycaptcha.com/swfs/cap.js";
+    var filename = "http://backs.keycaptcha.com/swfs/cap.js";
     var tags = document.getElementsByTagName('script');
     for (var i = tags.length; i >= 0; i--){
     if (tags[i] && tags[i].getAttribute('src') != null && tags[i].getAttribute('src').indexOf(filename) != -1)
@@ -34,8 +34,8 @@ function sendCaptcha(){
             clearInterval(intId);
             var answer = captchaAnswer.request;
             removeElements();
-            document.getElementById("capcode").value=answer;
-            document.getElementById("postbut").click();
+            document.getElementById(s_s_c_captcha_field_id).value=answer;
+//           document.getElementById("postbut").click();
         }
         else if ( captchaAnswer.request === "ERROR_CAPTCHA_UNSOLVABLE" ) {
             clearInterval(intId);
