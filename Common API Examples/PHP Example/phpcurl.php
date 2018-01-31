@@ -53,10 +53,17 @@ function recognize(
 		if ($is_verbose) echo "file $filename not found\n";
 		return false;
 	}
+
+    if (function_exists('curl_file_create')) { // php 5.5+ 
+        $cFile = curl_file_create($filename, mime_content_type($filename), 'file'); 
+    } else { // 
+        $cFile = '@' . realpath($filename);
+    } 
+
     $postdata = array(
         'method'    => 'post', 
         'key'       => $apikey, 
-        'file'      => new CurlFile($filename, mime_content_type($filename), 'file'),
+        'file'      => $cFile,
         'phrase'	=> $is_phrase,
         'regsense'	=> $is_regsense,
         'numeric'	=> $is_numeric,
