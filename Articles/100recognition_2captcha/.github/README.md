@@ -65,7 +65,7 @@ Also I found that I got less unsolvable results. It cannot be claimed that setti
 ![Captcha example](captcha4.gif)
 ![Captcha example](captcha5.gif)
 
-## Comments from 2Captcha.com: 
+## Comments from 2Captcha.com 
 We are happy that our users perform such tests. That helps us to improve our services and fix our issues found during tests. 
 For example first results of this test were not so good due to a small issue in captcha distribution algorithm but the author contacted us and we immediately fixed the issue.
 
