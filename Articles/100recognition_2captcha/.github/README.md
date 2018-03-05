@@ -1,4 +1,4 @@
-# Recognition speed up
+# Recognition speedup
 
 One of our users decided to perform a test of our 100% recognition option and wrote an article about his investigation. We've translated it from Russian to English to share with you:
 
