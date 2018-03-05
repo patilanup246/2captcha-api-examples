@@ -47,12 +47,13 @@ Screenshot of statistics table:
 ![Statistics](stats.png)
 
 
-1. First hypothesis: speed will grow up.
-Confirmed!
+1. First hypothesis: speed will grow up. 
+**Confirmed!**
+
 When more workers solve the same captcha recognition time decreases. For my tasks the best results are reached when minimal attempts number is set to 3. Price is increased 3 times but solving time is 32.5% less and I prefer speed.
 
 2. Second hypothesis: accuracy will fall.
-Not confirmed!
+**Not confirmed!**
 
 Probably for more accurate results I got to use larger image set e.g. 1000 images. As on 100 images one incorrect answer gives 1% of accuracy loss. But generally accuracy remain good enough.
 
