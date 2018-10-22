@@ -3,7 +3,7 @@ Hi!
 
 Here you can find some code examples for [2Captcha](https://2captcha.com/) and [RuCaptcha](http://rucaptcha.com).
 
-API description is available in [English](https://2captcha.com/2captcha-api) and [Russian](http://rucaptcha.com/api-rucaptcha).
+API description is available in [English](https://2captcha.com/2captcha-api) and [Russian](https://rucaptcha.com/api-rucaptcha).
 
 Also you can find some code simply searching [2captcha OR rucaptcha](https://github.com/search?q=2captcha+OR+rucaptcha) on GitHub.
 
