@@ -1,8 +1,10 @@
 # 2capcha-api-examples
 Hi!
+Here you will be able to find some code examples for [2Captcha](https://2captcha.com/) and [RuCaptcha](http://rucaptcha.com)
+API description is available in [English](https://2captcha.com/2captcha-api) and [Russian](http://rucaptcha.com/api-rucaptcha)
 
-Here you will be able to find some API examples for https://2captcha.com/
+Also you can find some code simply searching [2captcha OR rucaptcha](https://github.com/search?q=2captcha+OR+rucaptcha) on GitHub.
 
-Our API description is available here: https://2captcha.com/support/faq/15/
+Below are some code examples kindly provided by our users but not available on GitHub:
+* [Autoit script](http://indibit.de/website-interaction-and-solve-captchas-automatically/)
 
-If you have any questions you can submit a ticket right from the page mentioned above.
