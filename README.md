@@ -1,4 +1,3 @@
-# 2capcha-api-examples
 Hi!
 
 Here you can find some code examples for [2Captcha](https://2captcha.com/) and [RuCaptcha](https://rucaptcha.com).
