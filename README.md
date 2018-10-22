@@ -1,7 +1,7 @@
 # 2capcha-api-examples
 Hi!
 
-Here you can find some code examples for [2Captcha](https://2captcha.com/) and [RuCaptcha](http://rucaptcha.com).
+Here you can find some code examples for [2Captcha](https://2captcha.com/) and [RuCaptcha](https://rucaptcha.com).
 
 API description is available in [English](https://2captcha.com/2captcha-api) and [Russian](https://rucaptcha.com/api-rucaptcha).
 
